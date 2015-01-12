@@ -170,12 +170,16 @@ Applications
 	- [Noob’z Guide](http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
 	* [Manual](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)
 
-<br/>
-
 * ``cask`` [ manage native Mac app installations/removals in the terminal, through a Homebrew extension ]
 	* [Homepage](http://caskroom.io/)
 
-* ``vim`` --override-system-vi [ fresher vim release +override’s the out of date default Apple-provided Vim distribution ]
+<br/>
+
+
+* ``vim --override-system-vi`` [ fresher vim release +override’s the out of date default Apple-provided Vim distribution ]
+
+* ``ffmpeg`` [ video processing power house ]
+* ``gifsicle`` [ gif processing power house ]
 
 <h5>Python</h5>
 
