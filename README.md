@@ -95,39 +95,52 @@ Applications
 	* [Bonus points: The awesome and easy-on-the-eyes Solarized color schemes](http://ethanschoonover.com/solarized)
 	* [Old but still relevant OS X terminal customization thread on Arstechnica](http://arstechnica.com/civis/viewtopic.php?t=1215355)
 
-<br/>
-
 * Homebrew [install tailored Mac ports of UNIX software]
 	* Also install Brew Cask to use Brew to manage native Mac apps in addition to UNIX ports
 
+<br/>
 
 
-* Firefox Developer Edition [Beta Firefox geared specifically toward web developers]
-	* Or Chrome Canary if that’s your style, smh
+<h5>Browsers</h5>
 
-* VirtualBox [run GNU/Linux distributions in virtualized containers within OS X, without rebooting]
+* [Firefox Developer Edition [ Beta Firefox geared specifically toward web developers ] ](https://www.mozilla.org/en-US/firefox/developer/)
+	* Or Chrome Canary, if that’s your style, smh
 
-* Sequel Pro [for SQL database management]
+<h5>Virtualization [or, How to Disgrace Your Mac and Shame Your Family and Friends by Running Operating Systems That <em>Aren’t</em> the OS X Master Race</h5>
+
+* Bootcamp [for Windows]
+	* [Support](http://www.apple.com/support/bootcamp/)
+	* [Guide](http://manuals.info.apple.com/MANUALS/1000/MA1519/en_US/Boot_Camp_Install-Setup_10.6.pdf)
+
+* VirtualBox [for everything else, including GNU/Linux distributions]
+	* [Homepage](https://www.virtualbox.org/)
+	* [Lifehacker Guide: Installing Ubuntu](http://lifehacker.com/5938332/how-to-run-mac-os-x-on-any-windows-pc-using-virtualbox)
+
+<h5>Database Management</h5>
+
+* Sequel Pro [ [ for SQL, freely available ](http://www.sequelpro.com/) ]
 
 <br/>
 
 <h5>IDEs</h5>
 
-* Xcode [the industry standard IDE for native **iOS** and **Mac** software development]
-	* Main languages are **Objective-C** and **Swift**
-	* Also install the Command Line Tools for extra brownie points
+* [ Xcode — [ the industry standard IDE for native **iOS** and **Mac** software development ] ](https://developer.apple.com/xcode/) 
+	* Main languages are **Objective-C** and [ **Swift** ](https://developer.apple.com/swift/)
+	* Also [ install the Command Line Tools for extra brownie points ](http://railsapps.github.io/xcode-command-line-tools.html)
 		* You’ll need them to compile many Homebrew ports anyways
-	* Apple provides Beta releases for registered developers 
-		* $99 yearly fee gets you these + OS X betas too
+	* [ Apple provides Beta releases for registered developers ](https://developer.apple.com/news/?id=07112014a)
+		* [ Registering as an iOS or Mac developer (pay $99 yearly fee) gets you these + OS X betas too ](https://developer.apple.com/register/index.action)
+	* Add the [ Alcatraz extension ](http://alcatraz.io/) for built-in plugin/theme management
+
 <br/>
 
-* Android Studio [open-source **Android** **Java** IDE]
+* [ Android Studio — [ open-source **Android** **Java** IDE ] ](http://developer.android.com/sdk/index.html)
 	* Haven’t hacked Android in a bit, but even when I was using Android Studio in pre-release it absolutely crapped all over Eclipse.
 	* Also, Google themselves recommend using Android Studio for all _modern_ Android development
 
 <br/>
 
-* Sublime Text [code editor for pretty much everything else]
+* [ Sublime Text —  [ code editor for pretty much everything else ] ](http://www.sublimetext.com/)
 	* It’s free to use, it just bugs you to purchase a full license (gives you access to development versions, but they aren’t released that often) after each certain set amount of saves
 	* Technically a text editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
 		* *Can code your own plugins in Python*
@@ -275,8 +288,9 @@ Applications
 General Helpers
 -
 
-* Caffeine [keeps your Mac awake]
-* Flux [changes screen warmth based on the time of day, [helps you sleep by making your screen *not* mimick the sun](https://justgetflux.com/research.html) ]
+* [Caffeine — [ keeps your Mac awake ] ](https://itunes.apple.com/us/app/caffeine/id411246225)
+* [Flux — [ changes screen warmth based on the time of day] ](https://justgetflux.com/)
+	* [Helps you sleep by making your screen *not* mimick the sun](https://justgetflux.com/research.html)
 
 
 Productivity
@@ -305,7 +319,7 @@ Entertainment and Media Content
 
 Connectivity
 -
-* Transmission [for downloading torrents]
+* [ Transmission — [ for downloading torrents ] ](https://www.transmissionbt.com/)
 
 * Colloquy [for using IRC]
 
@@ -371,19 +385,33 @@ Misc
 <hr/>
 
 
-Games [Or, SHIT I should really get back to work!!]
+Gaming [Or, SHIT I should really get back to work!!]
 =
-* Steam [ like the App Store for Mac games, plus social/community features and achievements (ok, so it’s more like Xbox Live for Mac) ]
 
-* League of Legends [most popular MOBA out, native Mac client]
+* Bookmark [the Humble Bundle homepage](https://www.humblebundle.com/) and check back frequently
+	* Regularly add great new deals on games
+	* Also release a *weekly* bundle, as well as a *less frequent [ The Main Humble Bundle ]* bundle
+		* Proceeds go to different charities!
+		* **Choose what you want to pay; *need to pay a minimum of $1 to receive Steam keys* **
+
+<h4>Platforms</h4>
+
+* [ Steam (Free and Paid ](http://store.steampowered.com/) [ like the App Store for Mac games, plus social/community features and achievements (ok, so it’s more like Xbox Live for Mac) ]
+
+* [ OpenEmu (Free) ](http://openemu.org/) — [ bomb ass, open source, extensive collection of emulators for every *relevant* gaming platform, wrapped up in one nice Mac application ]
+
+	 * I’ve been supporting them since near day one, and the initial devs are a great group of engineers. [ Check out the Github repo! ](https://github.com/OpenEmu/OpenEmu)
+
+<br>
+
+<h4>Games</h4>
+
+* [ League of Legends (Free w/ IAP) ](http://na.leagueoflegends.com/) [ most popular MOBA out, [plus native Mac client](https://signup.leagueoflegends.com/en/signup/redownload) ]
 
 	* **Add me:** KennyTheHitman93
 	* Extremely fun, rewarding and addicting time-waster
 
-* Hearthstone
+* [ Hearthstone (Free w/ IAP) ](http://us.battle.net/hearthstone/en/)
 	* I’ve downloaded it, and plan on playing it, but I’m much too busy right now to give my actual opinion. Everyone says it is a must-have so I’m still listing it here
 
-* OpenEmu [bomb ass, open source, extensive collection of emulators for every *relevant* gaming platform, wrapped up in one nice Mac application]
-
-	 * I’ve been supporting them since near day one, and the initial devs are a great group of engineers. [Check out the Github repo!](https://github.com/OpenEmu/OpenEmu)
 
