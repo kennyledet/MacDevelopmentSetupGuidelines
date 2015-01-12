@@ -136,7 +136,7 @@ Applications
 
 <br/>
 
-* [ Android Studio ]((http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
+* [ Android Studio ](http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
 	* Haven’t hacked Android in a bit, but even when I was using Android Studio in pre-release it absolutely crapped all over Eclipse.
 	* Also, Google themselves recommend using Android Studio for all _modern_ Android development
 
@@ -144,7 +144,7 @@ Applications
 
 * [ Sublime Text ](http://www.sublimetext.com/) —  [ code editor for pretty much everything else ]
 	* It’s free to use, it just bugs you to purchase a full license (gives you access to development versions, but they aren’t released that often) after each certain set amount of saves
-	* Technically a text editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
+	* Technically, mainly a code editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
 		* *Can code your own plugins in Python*
 		* Install [Package Control](https://packagecontrol.io/) for plugin discovery and management
 
