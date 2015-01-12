@@ -78,7 +78,7 @@ Heroku Setup
 	heroku keys:add
 
 
-<hr>
+<hr/>
 Applications
 =
 
@@ -86,7 +86,7 @@ Applications
 
 <br/>
 
-<h4>Main</h4>
+<h4>Core</h4>
 ————
 
 <h5>Terminal</h5>
@@ -119,11 +119,13 @@ Applications
 		* You’ll need them to compile many Homebrew ports anyways
 	* Apple provides Beta releases for registered developers 
 		* $99 yearly fee gets you these + OS X betas too
-<br>
+<br/>
 
 * Android Studio [open-source **Android** **Java** IDE]
 	* Haven’t hacked Android in a bit, but even when I was using Android Studio in pre-release it absolutely crapped all over Eclipse.
 	* Also, Google themselves recommend using Android Studio for all _modern_ Android development
+
+<br/>
 
 * Sublime Text [code editor for pretty much everything else]
 	* It’s free to use, it just bugs you to purchase a full license (gives you access to development versions, but they aren’t released that often) after each certain set amount of saves
@@ -175,7 +177,7 @@ Applications
 	* ```pyenv-virtualenv``` [for initializing standalone self-managed virtual Python environments]
 
 
-* Essential Frameworks   ````TODO: Move the recommended frameworks/libs to more sensible sections; they don’t belong here! (holy shit I’m tired)````
+* Essential Frameworks   ````TODO: Move the recommended frameworks/libs to more sensible sections; they don’t belong here! (holy shit I’m tired) — or develop a visual indicator for Homebrew packages so they can be under any heading````
 	* Web Development
 		* [Django, a powerhouse web framework](https://www.djangoproject.com/)
 			* Provides most the bells and whistles and has its own set of rules and ways it thinks things should be done
@@ -268,14 +270,14 @@ Applications
 
 * [```the_silver_searcher``` [ search files on your drive in the terminal, like ack, but *faster*  ] ](https://github.com/ggreer/the_silver_searcher)
 
-
-<hr/>
+<br/><br/><br/><br/>
 
 General Helpers
 -
 
 * Caffeine [keeps your Mac awake]
 * Flux [changes screen warmth based on the time of day, [helps you sleep by making your screen *not* mimick the sun](https://justgetflux.com/research.html) ]
+
 
 Productivity
 -
@@ -294,6 +296,7 @@ Productivity
 
 * 1Password [beautiful and functional cross-platform password management (including iOS), if you’re into that sort of thing]
 
+
 Entertainment and Media Content
 -
 * Spotify [awesome streaming music player with huge catalog, radio, playlists and plugins (Save feature for basically organizing a cloud-based iTunes library free for all users; *+ download feature available to Premium subscribers*)]
@@ -306,6 +309,7 @@ Connectivity
 
 * Colloquy [for using IRC]
 
+
 Maintenence Tools
 -
 * Appcleaner [ remove *ALL* **(well, usually it’s *most*)** core files associated with a Mac Application, not just the .app file]
@@ -313,23 +317,31 @@ Maintenence Tools
 	* It seriously kicks extensive ass, get it
 * The Unarchiver [unarchive compressed files + support for tons more extensions than the native OS X solution]
 
+
 [Office / Home] Content Production
 -
-<h5>Apple</h4>
+
+<h5>Apple</h5>
 
 * Keynote [better than *Microsoft’s PowerPoint* for making presentations]
 * Pages [better than *Microsoft’s Word* for **some** word processing *(like cool and stylish flyers and resumes)*]
 
 * Logic Pro X / Garageband [professional and amateur tools, respectably, for producing music]
 
-<h5>Microsoft</h4>
+<br/>
+
+<h5>Microsoft</h5>
 
 * Microsoft Word [better than *Apple’s Pages* for **most** word processing]
 * Microsoft Excel [better than *Apple’s Numbers* for processing spreadsheets]
 
+<br/>
+
 <h5>Other Companies (yes, they’re still relevant in this space)</h5>
 
 * Ableton Studio [professional music production tool with features for live performances, loved by a lot of Electronic producers]
+
+<br/>
 
 <h4>Design-Specific</h4>
 
@@ -339,15 +351,27 @@ Maintenence Tools
 * Paintbrush [MS Paint Mac equivalent]
 * Paintcode [for designing graphic elements for Apple frameworks] 
 
+<hr/>
+
+
+Browser Plugins
+=
+* Silverlight [for watching Netflix]
+
+* Flash [if absolutely necessary..ugh]
+
+<hr/>
+
+
 Misc
--
+=
 * Mactracker [ a neat library for exploring the entire catalog of Apple product releases throughout history up to the current iterations]
 	* *Very nice to have for die-hard Apple fanboys(or girls!) such as myself :)*
 
-<hr>
+<hr/>
 
 
-Games
+Games [Or, SHIT I should really get back to work!!]
 =
 * Steam [ like the App Store for Mac games, plus social/community features and achievements (ok, so it’s more like Xbox Live for Mac) ]
 
@@ -363,10 +387,3 @@ Games
 
 	 * I’ve been supporting them since near day one, and the initial devs are a great group of engineers. [Check out the Github repo!](https://github.com/OpenEmu/OpenEmu)
 
-<hr>
-
-Browser Plugins
-=
-* Silverlight [for watching Netflix]
-
-* Flash [if absolutely necessary..ugh]
