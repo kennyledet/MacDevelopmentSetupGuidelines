@@ -156,6 +156,8 @@ Applications
 * ```git``` [ industry-standard version control system right now, used across the field and is the underlying driving force behind Github *(which you’re probably reading this on right now)* ]
 	* [Git gud.](http://www.git-scm.com/book/en/v2)
 
+* ``vim --override-system-vi`` [ fresher vim release +override’s the out of date default Apple-provided Vim distribution ]
+
 <br/>
 
 * ``wget`` [ download files from terminal ]
@@ -163,23 +165,25 @@ Applications
 	* [Examples](http://ssh-commands.blogspot.com/2013/01/the-ultimate-wget-download-guide-with.html)
 	* [Manual](http://www.gnu.org/software/wget/manual/wget.html)
 
-
 * ``tmux``[ manage terminal sessions ( *a.k.a. [multiplexer](http://linuxcommand.org/lc3_adv_termmux.php) )* ]
 	* [Quick Start](https://myhumblecorner.wordpress.com/2011/08/30/screen-to-tmux-a-humble-quick-start-guide/)
 	* [Crash Course](http://robots.thoughtbot.com/a-tmux-crash-course)
 	- [Noob’z Guide](http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
 	* [Manual](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)
 
-* ``cask`` [ manage native Mac app installations/removals in the terminal, through a Homebrew extension ]
-	* [Homepage](http://caskroom.io/)
 
 <br/>
 
-
-* ``vim --override-system-vi`` [ fresher vim release +override’s the out of date default Apple-provided Vim distribution ]
-
 * ``ffmpeg`` [ video processing power house ]
+	* to add libfaac support, run ``brew reinstall ffmpeg --with-faac``
 * ``gifsicle`` [ gif processing power house ]
+
+
+<br/>
+
+* ``cask`` [ manage native Mac app installations/removals in the terminal, through a Homebrew extension ]
+	* [Homepage](http://caskroom.io/)
+
 
 <h5>Python</h5>
 
@@ -292,27 +296,31 @@ Applications
 General Helpers
 -
 
-* [Caffeine — [ keeps your Mac awake ] ](https://itunes.apple.com/us/app/caffeine/id411246225)
-* [Flux — [ changes screen warmth based on the time of day] ](https://justgetflux.com/)
+* [ ClipMenu 1.0.0a1 alpha ](http://www.clipmenu.com/blog/2014/11/11/clipmenu-1-0-0a1-released/) — [ awesome clipboard management tool ]
+	* Access extensive clipboard history
+	* Image and code previews ( *code previews have syntax highlighting* )
+* [ Caffeine ](https://itunes.apple.com/us/app/caffeine/id411246225) — [ keeps your Mac awake ]
+	* Unobtrusive; simply sits in menubar
+* [ Flux ](https://justgetflux.com/) — [ changes screen warmth based on the time of day ]
 	* [Helps you sleep by making your screen *not* mimick the sun](https://justgetflux.com/research.html)
-
+* [ Bartender ](http://www.macbartender.com/) — [ Organizes menubar app icons ]
 
 Productivity
 -
 
-* Alfred [misc Mac productivity beast, though I mainly just use it for quickly emptying the Trash since Yosemite brought a Spotlight pop-up that can search files and the web in much the same way Alfred does, but natively]
+* Alfred [ misc Mac productivity beast, though I mainly just use it for quickly emptying the Trash since Yosemite brought a Spotlight pop-up that can search files and the web in much the same way Alfred does, but natively ]
 
-* Mailbox [awesomely productive Gmail management]
+* Mailbox [ awesomely productive Gmail management ]
 
-* Markdown [free Markdown editor with live preview pane]
+* Markdown [ free Markdown editor with live preview pane ]
 
 * SleepPillow [ ambient noise (nice presets) ]
 
 * Relax Melodies [ ambient noise (more customizable) ]
 
-* CheatSheet [quick shortcut to pull up guide of all shortcuts and their keyboard combinations for the current app]
+* 1Password [ beautiful and functional cross-platform password management (including iOS), if you’re into that sort of thing ]
 
-* 1Password [beautiful and functional cross-platform password management (including iOS), if you’re into that sort of thing]
+* CheatSheet [quick shortcut to pull up guide of all shortcuts and their keyboard combinations for the current app]
 
 
 Entertainment and Media Content
