@@ -67,6 +67,9 @@ Python Setup
 
 	sudo pip install ipython[zmq,qtconsole,notebook,test]
 
+*[ Make path to store virtual environments in ]*
+	mkdir ~/envs
+
 Heroku Setup
 -
 *[ Install the Heroku Toolbelt ]*
