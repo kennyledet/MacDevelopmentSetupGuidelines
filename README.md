@@ -70,6 +70,9 @@ Python Setup
 *[ Make path to store virtual environments in ]*
 	mkdir ~/envs
 
+*[ Install virtuenv module globally to create virtual Python environments ]*
+	sudo pip install virtualenv
+
 Heroku Setup
 -
 *[ Install the Heroku Toolbelt ]*
@@ -198,10 +201,6 @@ Applications
 	* ```pypy``` [it’s faster than Python 3]
 
 <br/>
-
-* Essential Tooling
-	* ```pyenv-virtualenv``` [for initializing standalone self-managed virtual Python environments]
-
 
 * Essential Frameworks   ````TODO: Move the recommended frameworks/libs to more sensible sections; they don’t belong here! (holy shit I’m tired) — or develop a visual indicator for Homebrew packages so they can be under any heading````
 	* Web Development
