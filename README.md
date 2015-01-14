@@ -326,6 +326,15 @@ Productivity
 <br/>
 
 
+* **Cloud Notes**
+	* [ Simplenote - Free](https://itunes.apple.com/us/app/simplenote/id692867256?mt=12) — [ Like the name says, it’s simple (much more-so than Evernote) ]
+	* [ Evernote - Free w/ premium subscription ](https://evernote.com/) — Cloud notes powerhouse
+		* Supports tons of media options and scanning from app
+		* More widely supported and integrated into 3rd party applications, if that matters to you
+
+<br/>
+
+
 * **Markdown Editors**
 	* [ Markdown - Free ](https://itunes.apple.com/us/app/id727484953) — [ free Markdown editor with live preview pane ]
 	* [ Mou Beta - Free ](http://25.io/mou/) — [ like above, is a bit better *when it actually works and isn’t crashing* ]
