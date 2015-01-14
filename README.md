@@ -88,6 +88,10 @@ Heroku Setup
 Applications
 =
 
+<h2>Security</h2>
+* [ Hands Off - Free version works fully for a set time period, can re-enable](https://www.oneperiodic.com/products/handsoff/) — [ protect your Mac’s internet and disk access ]
+	* I prefer this over the more popular and well-known *Little Snitch*, because *Hands Off* also helps protect against file tampering.
+
 <h2>Development</h2>
 
 <br/>
