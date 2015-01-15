@@ -73,7 +73,7 @@ Python Setup
 *[ Install virtuenv module globally to create virtual Python environments ]*
 	sudo pip install virtualenv
 
-Heroku Setup
+Heroku Setup *[ if you’re using Heroku ]*
 -
 *[ Install the Heroku Toolbelt ]*
 
@@ -84,6 +84,24 @@ Heroku Setup
 	heroku keys:add
 
 
+Java *[Development Environment]* Setup
+-
+
+*[ Install the Java Development Kit (a.k.a. JDK) ]*
+
+* Type ```java``` in the terminal to check and see if you have **any** form of *JDK* installed
+	* If you *don’t* have a JDK installed
+		* OS X will show a pop-up dialog informing you that you need to install a JDK in order to use this ```java``` command-line tool
+		* It should have a *More Info …* option. Click this to go to the download page for the JDK …. *orrrr*….
+		* …[ Take this shortcut to the JDK Download page ](http://www.oracle.com/technetwork/java/javase/downloads/index.html) — Valid as of January 15, 2015 ….*ORRRR*….
+		* …[ Save this shortcut to the JDK v8.25 download link ](http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-macosx-x64.dmg) — Valid as of January 15, 2015
+	* If you *do* have a JDK installed, and you **know** it’s the official JDK, but you want to install an **open-source version of the JDK**, see below
+
+	* If you want to use an **open-source** Java Development Kit
+		* [ Follow these instructions from Oracle themselves on installing OpenJDK, an open-source JDK alternative](https://wikis.oracle.com/display/OpenJDK/Mac+OS+X+Port)
+
+
+<br/><br/><br/>
 <hr/>
 Applications
 =
@@ -151,7 +169,7 @@ Applications
 		* *Built-in* plugin/theme management that fits right into Xcode
 		* Access in the standard menu — [ Window **->** Package Manager ]
 		* Shortcut — [ Shift *+* Command *+* 9 ]
-	* ****Subjective Opinion:***  — As a registered developer who is currently using **Xcode 6.2 beta 4**, I can say that Xcode has *vastly* improved since, say, the dreaded days of **Xcode 4-5**. <br/> It’s grown into quite a respectable IDE that I’ve come to really enjoy working with on a daily basis. It’s especially nice when using **Swift** as your main language. Swift is technically still a beta language, and It has its quirks, but Apple is quickly fixing them, and ***I highly suggest you learn Swift and use it for all new, non-legacy iOS/Mac development. It’s more than developed enough to be production-ready for most apps’ cases, IMHO. It’s only the icing on the cake that it’s exponentially more pleasurable to use and look at, and *much* quicker to develop in, than Objective-C.***
+	* ****Subjective Opinion:***  <br/> As a registered developer who is currently using **Xcode 6.2 beta 4**, I can say that Xcode has *vastly* improved since, say, the dreaded days of **Xcode 4-5**. <br/> It’s grown into quite a respectable IDE that I’ve come to really enjoy working with on a daily basis. It’s especially nice when using **Swift** as your main language. Swift is technically still a beta language, and It has its quirks, but Apple is quickly fixing them, and ***I highly suggest you learn Swift and use it for all new, non-legacy iOS/Mac development. It’s more than developed enough to be production-ready for most apps’ cases, IMHO. It’s only the icing on the cake that it’s exponentially more pleasurable to use and look at, and *much* quicker to develop in, than Objective-C.***
 
 <br/>
 
