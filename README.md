@@ -157,6 +157,11 @@ Applications
 	* Technically, mainly a code editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
 		* *Can code your own plugins in Python*
 		* Install [Package Control](https://packagecontrol.io/) for plugin discovery and management
+	* Create a symbolic link to the automatically installed supplementary shell program ```subl``` ….
+		* ….*which can be used to quickly open Sublime sessions with a folder you’re in inside a terminal*
+		* ```ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime```
+			* This creates the link to be called from your command line with ```sublime``` … <br/> 
+				….Rename this word [at the end in the ```ln``` call]  to whatever you’d like in order to customize this. <br/> ****Subjective Opinion:*** It may be longer, but I prefer to type 					```sublime``` instead of ```subl``` purely for the sake of explicitness.
 
 <br/>
 
