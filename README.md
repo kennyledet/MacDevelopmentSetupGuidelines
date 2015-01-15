@@ -185,6 +185,7 @@ Applications
 	* ****Subjective Opinion:*** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely crapped all over Eclipse.***
 	* Also, ****Google themselves now recommend using Android Studio for all _modern_ Android development***
 	* Git *and* Github integration!!
+	* See <a href=“#java-development-environment-setup”>Section on Java Development Environment Setup</a> to prepare your Mac for Android Java development
 
 <br/>
 
