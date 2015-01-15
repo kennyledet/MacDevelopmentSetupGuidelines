@@ -98,7 +98,8 @@ Java *[Development Environment]* Setup
 	* If you *do* have a JDK installed, and you **know** it’s the official JDK, but you want to install an **open-source version of the JDK**, see below
 
 	* If you want to use an **open-source** Java Development Kit
-		* [ Follow these instructions from Oracle themselves on installing OpenJDK, an open-source JDK alternative](https://wikis.oracle.com/display/OpenJDK/Mac+OS+X+Port)
+		* [ Follow these instructions from Oracle themselves on installing OpenJDK, an open-source JDK alternative](https://wikis.oracle.com/display/OpenJDK/Mac+OS+X+Port) …. *orrrr* ….
+		* …[ check out this Github repository if you prefer to use an installer ](https://github.com/alexkasko/openjdk-unofficial-builds)
 
 
 <br/><br/><br/>
