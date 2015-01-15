@@ -182,7 +182,7 @@ Applications
 <br/>
 
 * [ Android Studio - Free, Open-Source ](http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
-	* ****Subjective Opinion:** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely crapped all over Eclipse.***
+	* ****Subjective Opinion:*** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely crapped all over Eclipse.***
 	* Also, ****Google themselves now recommend using Android Studio for all _modern_ Android development***
 	* Git *and* Github integration!!
 
