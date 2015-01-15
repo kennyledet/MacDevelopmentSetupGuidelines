@@ -136,25 +136,35 @@ Applications
 
 <h5>IDEs</h5>
 
-* [ Xcode ](https://developer.apple.com/xcode/) — [ the industry standard IDE for native **iOS** and **Mac** software development ]
+* [ Xcode - Free ](https://developer.apple.com/xcode/) — [ the industry standard IDE for native **iOS** and **Mac** software development ]
 	* Main languages are **Objective-C** and [ **Swift** ](https://developer.apple.com/swift/)
+		* Plus good support for C/C++ and more — *[ thanks to Clang/LLVM, the whole toolset now even supports most C++11 and C++14 features ]*
+	* **Great** Git integration *(though I do still prefer to use the command line [ I do whenever I can ], this is still nice to have )*
 	* Also [ install the Command Line Tools for extra brownie points ](http://railsapps.github.io/xcode-command-line-tools.html)
-		* You’ll need them to compile many Homebrew ports anyways
-	* [ Apple provides Beta releases for registered developers ](https://developer.apple.com/news/?id=07112014a)
-		* [ Registering as an iOS or Mac developer (pay $99 yearly fee) gets you these + OS X betas too ](https://developer.apple.com/register/index.action)
-	* Add the [ Alcatraz extension ](http://alcatraz.io/) for built-in plugin/theme management
+		* To install, simply run this in your terminal — ```xcode-select --install```
+		* *I mean, you’ll need them to install many Homebrew packages anyways..Save yourself some frustration by getting it out the way now. :)*
+	* Registering as an iOS and Mac developer both cost a separate $99/year
+		* Allows you to publish apps on each respective App Stores
+		*  [ Apple provides free Beta releases for registered developers ](https://developer.apple.com/support/resources/prerelease-software.php)
+			* This includes betas access for — *[ iOS, OS X, Xcode and Safari ]*
+	* [ Extend Xcode with Alcatraz, an easily installable (just paste 1 command in the terminal) extension ](http://alcatraz.io/)
+		* *Built-in* plugin/theme management that fits right into Xcode
+		* Access in the standard menu — [ Window **->** Package Manager ]
+		* Shortcut — [ Shift *+* Command *+* 9 ]
+	* ****Subjective Opinion:***  — As a registered developer who is currently using **Xcode 6.2 beta 4**, I can say that Xcode has *vastly* improved since, say, the dreaded days of **Xcode 4-5**. <br/> It’s grown into quite a respectable IDE that I’ve come to really enjoy working with on a daily basis. It’s especially nice when using **Swift** as your main language. Swift is technically still a beta language, and It has its quirks, but Apple is quickly fixing them, and ***I highly suggest you learn Swift and use it for all new, non-legacy iOS/Mac development. It’s more than developed enough to be production-ready for most apps’ cases, IMHO. It’s only the icing on the cake that it’s exponentially more pleasurable to use and look at, and *much* quicker to develop in, than Objective-C.***
 
 <br/>
 
-* [ Android Studio ](http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
-	* Haven’t hacked Android in a bit, but even when I was using Android Studio in pre-release it absolutely crapped all over Eclipse.
-	* Also, Google themselves recommend using Android Studio for all _modern_ Android development
+* [ Android Studio - Free, Open-Source ](http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
+	* ****Subjective Opinion:** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely crapped all over Eclipse.***
+	* Also, ****Google themselves now recommend using Android Studio for all _modern_ Android development***
+	* Git *and* Github integration!!
 
 <br/>
 
-* [ Sublime Text ](http://www.sublimetext.com/) —  [ code editor for pretty much everything else ]
-	* It’s free to use, it just bugs you to purchase a full license (gives you access to development versions, but they aren’t released that often) after each certain set amount of saves
-	* Technically, mainly a code editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
+* [ Sublime Text - Free w/ license bugging ](http://www.sublimetext.com/) —  [ code editor for pretty much everything else ]
+	* Free version gives pretty much *full-featured access to stable versions*, just bugs you to pay for a license after so many amounts of file saves
+	* Full license gives you access to development versions, *but they honestly aren’t released that often*	* Technically, mainly a code editor, **but the massive amount of plugins available for it allow you to easily transform it into a fully-functional custom-tailored IDE**
 		* *Can code your own plugins in Python*
 		* Install [Package Control](https://packagecontrol.io/) for plugin discovery and management
 	* Create a symbolic link to the automatically installed supplementary shell program ```subl``` ….
@@ -170,7 +180,7 @@ Applications
 <h4>Homebrew Packages</h4>
 —————————————
 
-<h5>Core [or, The Programs Usually Named with 3-4 Letters for some reason]</h5>
+<h5>Core [Or, The Programs Usually Named with 3-4 Letters for some reason]</h5>
 
 * ```git``` [ industry-standard version control system right now, used across the field and is the underlying driving force behind Github *(which you’re probably reading this on right now)* ]
 	* [Git gud.](http://www.git-scm.com/book/en/v2)
