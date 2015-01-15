@@ -162,7 +162,9 @@ Applications
 		* ```ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime```
 			* This creates the link to be called from your command line with ```sublime``` … <br/> 
 				….Rename this word [at the end in the ```ln``` call]  to whatever you’d like in order to customize this. <br/> ****Subjective Opinion:*** It may be longer, but I prefer to type 					```sublime``` instead of ```subl``` purely for the sake of explicitness.
-
+		* <h5 color=“green”>Quick directions:</h5>
+			* [ Open current directory in Sublime Text ] —  ```sublime .```
+			* [ *Stupid Example:* Opening my code folder in Sublime Text ] — ```subl ~/code```
 <br/>
 
 <h4>Homebrew Packages</h4>
