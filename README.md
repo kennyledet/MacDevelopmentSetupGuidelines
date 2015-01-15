@@ -101,6 +101,13 @@ Java *[Development Environment]* Setup
 		* [ Follow these instructions from Oracle themselves on installing OpenJDK, an open-source JDK alternative](https://wikis.oracle.com/display/OpenJDK/Mac+OS+X+Port) …. *orrrr* ….
 		* …[ check out this Github repository if you prefer to use an installer ](https://github.com/alexkasko/openjdk-unofficial-builds)
 
+* Run this in the terminal to list the JDK distributions you have installed on your Mac
+	* ```ls /System/Library/Frameworks/JavaVM.framework/Versions```
+* Run either of these in the terminal to check the version of  ```java``` your environment is currently using
+	* `java -version`
+	* `javac -version`
+
+
 
 <br/><br/><br/>
 <hr/>
