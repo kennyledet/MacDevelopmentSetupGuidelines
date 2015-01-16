@@ -1,38 +1,60 @@
-Actions
-======
+<h1 style=“font-size:48”>Actions</h1>
+—————————
+<br/>
 
-<h2>Initial Sensible [well, for software developers] Mac Defaults</h2>
+#Initial Sensible [ well, for software developers ] Mac *Defaults*
+<br/><br/>
 
-*[ Make an obligatory code path ]*
+###*[ Make an obligatory code path ]*
 
 	mkdir ~/code
 
-*[ Show all hidden files ]*
+*[ Show all hidden files — note: this might be annoying for you on the Desktop ]*
 
 	defaults write com.apple.finder AppleShowAllFiles YES 
 
-*[ Enable key press repetition ]*
+*[ Disable key press hold/**Enable key press repetition** — note: kkkkkkkkkkkkkeeeeeennnnnyyyyyyyy rockkkkkkkssssssssssssss!!!!! andddddddd so do youuuuuuuu!!!! (it may be annoying to read, but that would have been **really** annoying to type without this keyboard modification)  ]*
 
 	defaults write -g ApplePressAndHoldEnabled -bool false
 
-*Organize Finder favorites sidebar according to current personal tastes* (preferably sorted in descending order based on most frequently accessed)
+<br/>
 
-<h4>**Setting zsh as your default shell [or, The Beginnings of a Highly Superior shell Experience]**</h4>
 
-* [It’s actually quite simple to join the master race! Visit this nice Github repo to see!](https://github.com/robbyrussell/oh-my-zsh)
-* [Useful site for getting explanations of command-line arguments for various UNIX shell programs ](http://explainshell.com/)
+* [ Organize your Favorites in the Finder’s sidebar ](http://support.apple.com/kb/PH10918) — according to your own current personal tastes*
+	* *My preference is to sort Finder Favorites in descending order based on the folders I already am or am planning on accessing most frequently
+
+<br/>
+
+##Setting *zsh* as your default shell [Or, “The Radical Beginnings of an Extremely Superior Terminal Experience”]
+
+* ####[It’s actually quite easy to join the master race! Visit this nice Github repo to see!](https://github.com/robbyrussell/oh-my-zsh)
+* [ Here’s a useful site ](http://explainshell.com/) — for *typing in commands and getting back detailed explanations of what they do, for various UNIX shell programs*
 * [Slide presentation on the benefits of using zsh over other options](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692)
 
+<hr/>
+<br/><br/><br/>
 
-SSH Keys
--
+
+##SSH [ secure, passwordless identification protocol ]
+——————————————————————————————————————————————
+
+* [ Learn about SSH if you don’t know what it is yet](http://en.wikipedia.org/wiki/Secure_Shell), because chances are you **will** need to use it in *some* way, at *some* point in your development career.
+
+####*[ Make a default path in your *Home* folder to store SSH keys ]*
+
 	mkdir ~/.ssh
 	cd ~/.ssh
 
-*[ Create a default local public SSH key pair ]*
 
-	ssh-keygen -t rsa
+#####*[ Create a default local public SSH key pair (of the [ RSA ](http://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) type) ]*
 
+* Using [ ssh-keygen ](http://en.wikipedia.org/wiki/Ssh-keygen), which comes pre-installed on all Macs
+	* ``ssh-keygen -t rsa``
+		> [ Command Explanation — ExplainShell ](http://explainshell.com/explain?cmd=ssh-keygen+-t+rsa)
+
+
+
+[ C] *
 
 Git setup
 -
@@ -177,17 +199,17 @@ Applications
 		* *Built-in* plugin/theme management that fits right into Xcode
 		* Access in the standard menu — [ Window **->** Package Manager ]
 		* Shortcut — [ Shift *+* Command *+* 9 ]
-	* ****Subjective Opinion:***  <br/> As a registered developer who is currently using **Xcode 6.2 beta 4**, I can say that Xcode has *vastly* improved since, say, the dreaded days of **Xcode 4-5**. <br/> It’s grown into quite a respectable IDE that I’ve come to really enjoy working with on a daily basis. It’s especially nice when using **Swift** as your main language. Swift is technically still a beta language, and It has its quirks, but Apple is quickly fixing them, and ***I highly suggest you learn Swift and use it for all new, non-legacy iOS/Mac development. It’s more than developed enough to be production-ready for most apps’ cases, IMHO. It’s only the icing on the cake that it’s exponentially more pleasurable to use and look at, and *much* quicker to develop in, than Objective-C.***
+	* > ****Subjective Opinion:***  <br/> As a registered developer who is currently using **Xcode 6.2 beta 4**, I can say that Xcode has *vastly* improved since, say, the dreaded days of **Xcode 4-5**. <br/> It’s grown into quite a respectable IDE that I’ve come to really enjoy working with on a daily basis. It’s especially nice when using **Swift** as your main language. Swift is technically still a beta language, and It has its quirks, but Apple is quickly fixing them, and ***I highly suggest you learn Swift and use it for all new, non-legacy iOS/Mac development. It’s more than developed enough to be production-ready for most apps’ cases, IMHO. It’s only the icing on the cake that it’s exponentially more pleasurable to use and look at, and *much* quicker to develop in, than Objective-C.***
 
 <br/>
 
 * [ Android Studio - Free, Open-Source ](http://developer.android.com/sdk/index.html) — [ open-source **Android** **Java** IDE ]
-	* ****Subjective Opinion:*** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely crapped all over Eclipse.***
 	* Also, ****Google themselves now recommend using Android Studio for all _modern_ Android development***
 	* Git *and* Github integration!!
 	* See <a href=“https://github.com/kennyledet/MacDevelopmentSetupGuidelines#java-development-environment-setup”>Section on Java Development Environment Setup</a> to prepare your Mac for Android Java development
 
-<br/>
+	* > ****Subjective Opinion:*** <br/> Haven’t hacked Android in a bit, ****but even when I was using Android Studio in pre-release *it absolutely 	crapped all over Eclipse.**
+
 
 * [ Sublime Text - Free w/ license bugging ](http://www.sublimetext.com/) —  [ code editor for pretty much everything else ]
 	* Free version gives pretty much *full-featured access to stable versions*, just bugs you to pay for a license after so many amounts of file saves
@@ -204,15 +226,23 @@ Applications
 			* [ *Stupid Example:* Opening my code folder in Sublime Text ] — ```subl ~/code```
 <br/>
 
-<h4>Homebrew Packages</h4>
-—————————————
+
+<hr/>
+####Homebrew Packages [ All Free ]
+———————————————————
 
 <h5>Core [Or, The Programs Usually Named with 3-4 Letters for some reason]</h5>
 
-* ```git``` [ industry-standard version control system right now, used across the field and is the underlying driving force behind Github *(which you’re probably reading this on right now)* ]
-	* [Git gud.](http://www.git-scm.com/book/en/v2)
-
-* ``vim --override-system-vi`` [ fresher vim release +override’s the out of date default Apple-provided Vim distribution ]
+* ```git``` [ industry-standard version control system ]
+	* Is now used all across the software development field
+	* It is *obligatory and commonly expected* of a modern software developer to know how to use *at least* the basic commands, *so….*
+	* …[Git gud.](http://www.git-scm.com/book/en/v2) —  [official book]
+	* **Fun Fact: It’s the underlying technology and driving force behind Github** *(which you’re most likely reading this on right now)* ]
+	* Can be used to manage version control for much more than software
+		* ***Example:*** The new hotnesses on Github seem to be *”awesome-“* compilations — *[ curated meta-lists of resources for specific topics ]*
+			* [ A very meta list of “awesome” Github repos ](https://github.com/emijrp/awesome-awesome)
+* ``vim --override-system-vi`` [ installs fresher vim release ]
+	* The ``—-override`` flag does what you might think — [ it overrides the *out of date default* Vim distribution Apple provides with OS X ]
 
 <br/>
 
@@ -361,15 +391,21 @@ Productivity
 -
 
 * **General**
-	* [ Alfred - Free w/ paid upgrade ](http://www.alfredapp.com/) — [ swiss army knife style Mac productivity beast ]
-		* [ Paid “Powerpack” upgrade ](http://www.alfredapp.com/powerpack/) supports more features and extensions named “Workflows”
-		* ****Subjective Note***: I mainly just use it for quickly emptying the Trash since Yosemite brought a Spotlight pop-up that can search files and the web in much the same way Alfred does, but natively*
+	* [ Alfred - Free w/ paid upgrade ](http://www.alfredapp.com/) — [ swiss army knife style Mac productivity shortcut **beast** ]
+		* [ Paid “Powerpack” upgrade ](http://www.alfredapp.com/powerpack/) provides even more features and extensions named *“Workflows”*
+			* [ Official Alfred Workflows Overview](http://support.alfredapp.com/workflows)
+			* [ Can create and share your own Workflows!! ](http://support.alfredapp.com/workflows#creating-first)
+			* Workflow Collections
+				* [ zenorocha/alfred-workflows Github repo](https://github.com/zenorocha/alfred-workflows)
+				* [ willfarrell/alfred-workflows (for developers) Github repo ](https://github.com/willfarrell/alfred-workflows)
+
+		* > ****Subjective Note***: I mainly just use it for quickly emptying the Trash since Yosemite brought a Spotlight pop-up that can search files and the web in much the same way Alfred does, but natively*
 
 
 * **Mail**
 	* [ Mailbox - Free ](http://www.mailboxapp.com/) —  [ awesomely productive Gmail management ]
 		* Can sort your mail for you in smart and actually useful ways
-		* ****Subjective Opinion***: Could really use support for more than just Gmail*
+		* > ****Subjective Opinion***: Could really use support for more than just Gmail*
 
 <br/>
 
@@ -393,9 +429,9 @@ Productivity
 * **Password Managers**
 
 	* [ 1Password - Free w/ paid desktop licenses](https://agilebits.com/onepassword) —  [ beautiful and functional cross-platform password management (including iOS), if you’re into that sort of thing ]
-	* [ Lastpass ](https://lastpass.com/misc_download2.php) — [ it works, but less attractively than 1Password ]
-		* I’m still using it alongside 1Password for purely legacy reasons, though I do plan on transferring all my logins to *1Password*
-		* Also has mobile apps, *but you gotta pay for a premium subscription ($11.99 / year) to use them*
+	* [ Lastpass ](https://lastpass.com/misc_download2.php) — [ password manager with apps and extensions for most platforms ]
+		* > Lastpass works, but less attractively so than 1Password. I’m still using it alongside 1Password for purely legacy reasons, though I do plan on transferring all my logins to *1Password*
+		* Has mobile apps, **but you gotta pay for a premium subscription ($11.99 / year) to use them**
 
 <br/>
 
@@ -408,24 +444,28 @@ Productivity
 
 
 * **Misc**
-	* CheatSheet [quick shortcut to pull up guide of all shortcuts and their keyboard combinations for the current app]
+	* [ CheatSheet - Free ]() — [quick shortcut to pull up guide of *all* shortcuts along with their associated keyboard combinations
+		* Works for *any* Mac app you have open
 
 <br/>
 <br/>
 
+<hr/>
 
 Entertainment and Media Content
 -
 
 * **Music**
-	* [ Spotify - Free w/ premium subscriptions ](https://www.spotify.com/us/) — [ awesome streaming music player with huge catalog, radio, playlists and plugins
-		* “Save” feature can technically be used to organize a cloud-based iTunes-like library *[ free for all users ]*
-		* Download feature for actually saving songs to local drive *[ available to Premium subscribers ($9.99 / month) ]*
+	* [ Spotify - Free w/ premium subscriptions ](https://www.spotify.com/us/) — [ awesome streaming music player ]
+		* **HUGE** catalog, radio features, playlists and tons of plugins for Desktop *(called apps)*
+		* *Now has a neat built-in remote feature for controlling the Desktop apps from the Mobile apps*
+		* > ****Protip:*** *“Save” feature* [ free for all users ] can technically be used to organize a cloud-based iTunes-like library
+		* > ****Protip:** Download feature* [ requires a Premium subscription ($9.99 / month) ] can be used for **actually saving** songs to local drive, on both Desktop and Mobile
 
 * **Videos**
 	* [ MplayerX - Free ](http://mplayerx.org/) — [ top-notch video player ]
-		* Can play most any type of video file you can throw at it
-		* Faster and more aesthetically pleasing than *VLC*
+		* Can play most **any** type of video file you can throw at it (hasn’t failed me yet!!)
+		* Faster *and* more aesthetically pleasing than *VLC*
 
 <br/>
 <br/>
