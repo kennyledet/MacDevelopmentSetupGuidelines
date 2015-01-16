@@ -50,7 +50,7 @@
 ##Setup SSH [ secure, passwordless identification and connection protocol ]
 ——————————————————————————————————————————————
 
-* [ Learn about SSH if you don’t know what it is yet](http://en.wikipedia.org/wiki/Secure_Shell), because chances are you **will** need to use it in *some* way, at *some* point in your development career.
+* [ First, *learn about SSH* if you don’t know what it is yet](http://en.wikipedia.org/wiki/Secure_Shell), because chances are you **will** need to use it in *some* way, at *some* point in your development career.
 	* A common example is [ connecting to Amazon EC2 Servers using the ( free and pre-installed ) command-line program ```ssh``` ](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 ####*[ Make a default path in your *Home* folder to store SSH keys ]*
