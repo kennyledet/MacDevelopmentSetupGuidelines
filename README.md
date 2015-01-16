@@ -1,13 +1,39 @@
-#Tasks
+#1. *Tasks*
 —————————
 <br/>
 
-##Initial Sensible [ well, for software developers ] Mac *Defaults*
+#Initial Sensible [ well, for software developers ] Mac *Defaults*
 <br/><br/>
 
-###*[ Make an obligatory code path ]*
+##Mandatory:
+<br/>
+
+###*[ Make an obligatory code path!! ] !!*
 
 	mkdir ~/code
+
+<hr/>
+
+
+###Recommended:
+
+* [ Organize your Favorites in the Finder’s sidebar ](http://support.apple.com/kb/PH10918) — according to your own current personal tastes*
+	* *My preference is to sort Finder Favorites in descending order based on the folders I already am or am planning on accessing most frequently
+
+<br/>
+
+
+####Setting *zsh* as your default shell [Or, “The Radical Beginnings of an Extremely Superior Terminal Experience”]
+
+* ####[It’s actually quite easy to join the master race! Visit this nice Github repo to see!](https://github.com/robbyrussell/oh-my-zsh)
+* [ Here’s a useful site ](http://explainshell.com/) — for *typing in commands and getting back detailed explanations of what they do, for various UNIX shell programs*
+* [Slide presentation on the benefits of using zsh over other options](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692)
+
+<hr/>
+<br/><br/>
+
+###Optional:
+<br/>
 
 *[ Show all hidden files — note: this might be annoying for you on the Desktop ]*
 
@@ -17,28 +43,15 @@
 
 	defaults write -g ApplePressAndHoldEnabled -bool false
 
-<br/>
-
-
-* [ Organize your Favorites in the Finder’s sidebar ](http://support.apple.com/kb/PH10918) — according to your own current personal tastes*
-	* *My preference is to sort Finder Favorites in descending order based on the folders I already am or am planning on accessing most frequently
-
-<br/>
-
-##Setting *zsh* as your default shell [Or, “The Radical Beginnings of an Extremely Superior Terminal Experience”]
-
-* ####[It’s actually quite easy to join the master race! Visit this nice Github repo to see!](https://github.com/robbyrussell/oh-my-zsh)
-* [ Here’s a useful site ](http://explainshell.com/) — for *typing in commands and getting back detailed explanations of what they do, for various UNIX shell programs*
-* [Slide presentation on the benefits of using zsh over other options](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692)
-
+<br/><br/>
 <hr/>
-<br/><br/><br/>
 
 
-##SSH [ secure, passwordless identification protocol ]
+##Setup SSH [ secure, passwordless identification and connection protocol ]
 ——————————————————————————————————————————————
 
 * [ Learn about SSH if you don’t know what it is yet](http://en.wikipedia.org/wiki/Secure_Shell), because chances are you **will** need to use it in *some* way, at *some* point in your development career.
+	* A common example is [ connecting to Amazon EC2 Servers using the ( free and pre-installed ) command-line program ```ssh``` ](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 
 ####*[ Make a default path in your *Home* folder to store SSH keys ]*
 
@@ -53,16 +66,32 @@
 		> [ Command Explanation — ExplainShell ](http://explainshell.com/explain?cmd=ssh-keygen+-t+rsa)
 
 
+*[ Learn how to use the command line program ```ssh``` and SSH in general ]*
 
-[ C] *
+* Documentation
+	* Type ``man ssh`` to read the manual within your terminal, *orrrr…*
+	* ….[ View the manual pages online on Apple’s site ](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/ssh.1.html)
 
-Git setup
--
-*[ Init your Git configuration with some sensibile open source defaults ]*
+* Guides
+	* [ Quick overview on Tutsplus ](http://code.tutsplus.com/tutorials/ssh-what-and-how--net-25138)
+	* [ Hey, you! Overachiever! Click me, I’m a much deeper guide!! ](http://www.linuxjournal.com/article/4412?page=0,0)
 
-	curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig 
+<hr/>
+<br/><br/>
 
-*[ Setup personal Git configuration ]*
+#Git Setup
+
+###*[ Install Git ]*
+
+* *Easy Mode*: [ Using Homebrew ](http://brew.sh/)
+	* run ``brew install git`` in the command line. that’s it.
+* *Takes a bit more time Mode*: [ Using native installer package ](http://git-scm.com/download/mac)
+
+####*[ Init your Git configuration with some sensible (and open-source) defaults ]*
+
+	run ```curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig``` 
+
+####*[ Setup personal Git configuration ]*
 
 	git config --global user.name “Your Name”
 
