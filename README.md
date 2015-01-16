@@ -1,8 +1,8 @@
-<h1 style=“font-size:48”>Actions</h1>
+#Tasks
 —————————
 <br/>
 
-#Initial Sensible [ well, for software developers ] Mac *Defaults*
+##Initial Sensible [ well, for software developers ] Mac *Defaults*
 <br/><br/>
 
 ###*[ Make an obligatory code path ]*
