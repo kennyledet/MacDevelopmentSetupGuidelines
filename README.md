@@ -1,23 +1,28 @@
 #1. *Tasks*
-—————————
+=================
 <br/>
 
 #Initial Sensible [ well, for software developers ] Mac *Defaults*
+———————————————————————————————————————————————————————————————
 <br/><br/>
 
-##Mandatory:
-<br/>
+###Mandatory:
 
-###*[ Make an obligatory code path!! ] !!*
+
+####*[ Make an obligatory code path!! ] !!*
 
 	mkdir ~/code
 
 <hr/>
+<br/>
 
 
 ###Recommended:
 
-* [ Organize your Favorites in the Finder’s sidebar ](http://support.apple.com/kb/PH10918) — according to your own current personal tastes*
+[ Organize your Favorites in the Finder’s sidebar ]
+
+* [ Apple Guide ](http://support.apple.com/kb/PH10918)
+*  Organize according to your own current personal tastes*
 	* *My preference is to sort Finder Favorites in descending order based on the folders I already am or am planning on accessing most frequently
 
 <br/>
@@ -404,6 +409,9 @@ Applications
 
 <br/><br/><br/><br/>
 
+
+<hr/>
+
 General Helpers
 -
 
@@ -415,6 +423,11 @@ General Helpers
 * [ Flux - Free ](https://justgetflux.com/) — [ changes screen warmth based on the time of day ]
 	* [Helps you sleep by making your screen *not* mimick the sun](https://justgetflux.com/research.html)
 * [ Bartender - Paid w/ free trial ](http://www.macbartender.com/) — [ Organizes menubar app icons (*can hide them for cleaner look*) ]
+
+
+
+
+<hr/>
 
 Productivity
 -
@@ -500,6 +513,8 @@ Entertainment and Media Content
 <br/>
 
 
+<hr/>
+
 Connectivity
 -
 
@@ -507,9 +522,11 @@ Connectivity
 * [ Colloquy -  Free ](http://colloquy.info/) — [ for chatting on IRC ]
 * [ Cyberduck - Free ](https://cyberduck.io/) — [ connectivity powerhouse for *everything else* ]
 	* Supports *FTP/SFTP, WebDAV, Amazon S3, Google Cloud Storage and Rackspace Cloud Files*
+* [ VPNReactor - Pro and Free (Limited) Options](https://www.vpnreactor.com/) — [ Virtual Private Network with native Mac app ]
+    * Browse the internet securely and safely with a private IP address.
 
 <br/>
-
+<hr/>
 
 Maintenence Tools
 -
@@ -521,7 +538,7 @@ Maintenence Tools
 * [ Disk Inventory X - Free ](http://www.derlien.com/) — [ nice tool to visualize how your Mac’s storage is being used, file by file ]
 
 <br/>
-
+<hr/>
 
 *[ Office / Home ]* Content Production
 -
